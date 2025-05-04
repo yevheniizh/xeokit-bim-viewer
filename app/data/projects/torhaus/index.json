@@ -12,11 +12,6 @@
             0.95,
             0.95,
             1.0
-        ]
-    },
-    "viewerContent": {
-        "modelsLoaded": [
-            "design"
         ],
         "objectColors": {
             "IfcSpace": {
@@ -30,12 +25,20 @@
             },
             "IfcPlate": {
                 "opacity": 0.3
+            },
+            "IfcSite": {
+                "visible": false
             }
         }
     },
+    "viewerContent": {
+        "modelsLoaded": [
+            "design"
+        ]
+    },
     "viewerState": {
         "threeDEnabled": true,
-        "tabOpen": "objects",
+        "tabOpen": "classes",
         "expandObjectsTree": 3,
         "expandClassesTree": 1,
         "expandStoreysTree": 1,
