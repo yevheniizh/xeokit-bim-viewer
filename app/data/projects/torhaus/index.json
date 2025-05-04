@@ -1,0 +1,48 @@
+{
+    "id": "torhaus",
+    "name": "Torhaus",
+    "models": [
+        {
+            "id": "design",
+            "name": "Torhaus Building"
+        }
+    ],
+    "viewerConfigs": {
+        "backgroundColor": [
+            0.95,
+            0.95,
+            1.0
+        ]
+    },
+    "viewerContent": {
+        "modelsLoaded": [
+            "design"
+        ],
+        "objectColors": {
+            "IfcSpace": {
+                "opacity": 0.3
+            },
+            "IfcWindow": {
+                "opacity": 0.4
+            },
+            "IfcOpeningElement": {
+                "opacity": 0.3
+            },
+            "IfcPlate": {
+                "opacity": 0.3
+            }
+        }
+    },
+    "viewerState": {
+        "threeDEnabled": true,
+        "tabOpen": "objects",
+        "expandObjectsTree": 3,
+        "expandClassesTree": 1,
+        "expandStoreysTree": 1,
+        "setCamera": {
+            "eye": [93.15058604313623, 34.70101473733157, -67.28529174531096],
+            "look": [-52.650425524665394, -36.43698790882855, -33.47991183736554],
+            "up": [-0.4181865497190944, 0.9031714397180954, 0.09696061113453117]
+        }
+    }
+}
